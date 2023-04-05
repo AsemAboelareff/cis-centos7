@@ -71,7 +71,7 @@ rhel7cis_tmp_svc: false
 # Section 1 rules
 # Section 1 is Initial Setup (Filesystem Configuration, Configure Software Updates, Configure Sudo, Filesystem Integrity Checking, Secure Boot Settings, Additional Process Hardening, Mandatory Access Control, and Warning Banners)
 rhel7cis_rule_1_1_1_1: false
-rhel7cis_rule_1_1_1_2: false
+rhel7cis_rule_1_1_1_2: true
 rhel7cis_rule_1_1_1_3: false
 rhel7cis_rule_1_1_2: false
 rhel7cis_rule_1_1_3: false
@@ -81,14 +81,14 @@ rhel7cis_rule_1_1_6: false
 rhel7cis_rule_1_1_7: false
 rhel7cis_rule_1_1_8: false
 rhel7cis_rule_1_1_9: false
-rhel7cis_rule_1_1_10: false
-rhel7cis_rule_1_1_11: false
+rhel7cis_rule_1_1_10: true
+rhel7cis_rule_1_1_11: true
 rhel7cis_rule_1_1_12: false
 rhel7cis_rule_1_1_13: false
 rhel7cis_rule_1_1_14: false
-rhel7cis_rule_1_1_15: false
-rhel7cis_rule_1_1_16: false
-rhel7cis_rule_1_1_17: false
+rhel7cis_rule_1_1_15: true
+rhel7cis_rule_1_1_16: true
+rhel7cis_rule_1_1_17: true
 rhel7cis_rule_1_1_18: false
 rhel7cis_rule_1_1_19: false
 rhel7cis_rule_1_1_20: false
@@ -114,7 +114,7 @@ rhel7cis_rule_1_6_1_1: false
 rhel7cis_rule_1_6_1_2: false
 rhel7cis_rule_1_6_1_3: false
 rhel7cis_rule_1_6_1_4: false
-rhel7cis_rule_1_6_1_5: false
+rhel7cis_rule_1_6_1_5: true
 rhel7cis_rule_1_6_1_6: false
 rhel7cis_rule_1_6_1_7: false
 rhel7cis_rule_1_6_1_8: false
@@ -163,7 +163,7 @@ rhel7cis_rule_2_4: false
 
 # Section 3 rules
 # Section 3 is Network Configuration (Disable unused network protocols, Network parameters (host), Network parameters (Host and Router), Uncommon Network Protocols, Firewall Configuration, and Configure iptables)
-rhel7cis_rule_3_1_1: false
+rhel7cis_rule_3_1_1: true
 rhel7cis_rule_3_1_2: false
 rhel7cis_rule_3_2_1: false
 rhel7cis_rule_3_2_2: false
@@ -176,8 +176,8 @@ rhel7cis_rule_3_3_6: false
 rhel7cis_rule_3_3_7: false
 rhel7cis_rule_3_3_8: false
 rhel7cis_rule_3_3_9: false
-rhel7cis_rule_3_4_1: false
-rhel7cis_rule_3_4_2: false
+rhel7cis_rule_3_4_1: true
+rhel7cis_rule_3_4_2: true
 rhel7cis_rule_3_5_1_1: false
 rhel7cis_rule_3_5_1_2: false
 rhel7cis_rule_3_5_1_3: false
@@ -216,26 +216,26 @@ rhel7cis_rule_3_5_3_3_6: false
 # Section 4 is Logging and Auditing (Configure System Accounting (auditd) and Configure Logging)
 rhel7cis_rule_4_1_1_1: false
 rhel7cis_rule_4_1_1_2: false
-rhel7cis_rule_4_1_1_3: false
-rhel7cis_rule_4_1_2_1: false
-rhel7cis_rule_4_1_2_2: false
-rhel7cis_rule_4_1_2_3: false
-rhel7cis_rule_4_1_2_4: false
-rhel7cis_rule_4_1_3: false
-rhel7cis_rule_4_1_4: false
-rhel7cis_rule_4_1_5: false
-rhel7cis_rule_4_1_6: false
-rhel7cis_rule_4_1_7: false
-rhel7cis_rule_4_1_8: false
-rhel7cis_rule_4_1_9: false
-rhel7cis_rule_4_1_10: false
-rhel7cis_rule_4_1_11: false
-rhel7cis_rule_4_1_12: false
-rhel7cis_rule_4_1_13: false
-rhel7cis_rule_4_1_14: false
-rhel7cis_rule_4_1_15: false
-rhel7cis_rule_4_1_16: false
-rhel7cis_rule_4_1_17: false
+rhel7cis_rule_4_1_1_3: true
+rhel7cis_rule_4_1_2_1: true
+rhel7cis_rule_4_1_2_2: true
+rhel7cis_rule_4_1_2_3: true
+rhel7cis_rule_4_1_2_4: true
+rhel7cis_rule_4_1_3: true
+rhel7cis_rule_4_1_4: true
+rhel7cis_rule_4_1_5: true
+rhel7cis_rule_4_1_6: true
+rhel7cis_rule_4_1_7: true
+rhel7cis_rule_4_1_8: true
+rhel7cis_rule_4_1_9: true
+rhel7cis_rule_4_1_10: true
+rhel7cis_rule_4_1_11: true
+rhel7cis_rule_4_1_12: true
+rhel7cis_rule_4_1_13: true
+rhel7cis_rule_4_1_14: true
+rhel7cis_rule_4_1_15: true
+rhel7cis_rule_4_1_16: true
+rhel7cis_rule_4_1_17: true
 rhel7cis_rule_4_2_1_1: false
 rhel7cis_rule_4_2_1_2: false
 rhel7cis_rule_4_2_1_3: false
@@ -267,7 +267,7 @@ rhel7cis_rule_5_3_2: false
 rhel7cis_rule_5_3_3: false
 rhel7cis_rule_5_3_4: false
 rhel7cis_rule_5_3_5: false
-rhel7cis_rule_5_3_6: false
+rhel7cis_rule_5_3_6: true
 rhel7cis_rule_5_3_7: false
 rhel7cis_rule_5_3_8: false
 rhel7cis_rule_5_3_9: false
@@ -281,7 +281,7 @@ rhel7cis_rule_5_3_16: false
 rhel7cis_rule_5_3_17: false
 rhel7cis_rule_5_3_18: false
 rhel7cis_rule_5_3_19: false
-rhel7cis_rule_5_3_20: false
+rhel7cis_rule_5_3_20: true
 rhel7cis_rule_5_3_21: false
 rhel7cis_rule_5_3_22: false
 rhel7cis_rule_5_4_1: false
@@ -301,7 +301,7 @@ rhel7cis_rule_5_6: false
 rhel7cis_rule_5_7: false
 # Section 6 rules
 # Section 6 is System Maintenance (System File Permissions and User and Group Settings)
-rhel7cis_rule_6_1_1: false
+rhel7cis_rule_6_1_1: true
 rhel7cis_rule_6_1_2: false
 rhel7cis_rule_6_1_3: false
 rhel7cis_rule_6_1_4: false
