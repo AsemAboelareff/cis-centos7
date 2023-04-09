@@ -4,7 +4,7 @@
   lineinfile:
       dest: /etc/audit/auditd.conf
       regexp: "^max_log_file( |=)"
-      line: "max_log_file = 10"
+      line: "max_log_file = 32"
       state: present
   notify: restart auditd
   when:
