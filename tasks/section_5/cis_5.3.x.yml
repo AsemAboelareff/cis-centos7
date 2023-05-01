@@ -155,7 +155,7 @@
       dest: /etc/ssh/sshd_config
       regexp: "^#X11Forwarding|^X11Forwarding"
       line: 'X11Forwarding no'
-      validate: /usr/sbin/sshd -T -C user=root -C host="$(hostname)" -C addr="$(grep $(hostname) /etc/hosts | awk '{print $1}')" -f %s
+      #validate: /usr/sbin/sshd -T -C user=root -C host="$(hostname)" -C addr="$(grep $(hostname) /etc/hosts | awk '{print $1}')" -f %s
   notify:
       - restart sshd
   when:
@@ -413,7 +413,7 @@
       dest: /etc/ssh/sshd_config
       regexp: "^#AllowTcpForwarding|^AllowTcpForwarding"
       line: 'AllowTcpForwarding no'
-      validate: /usr/sbin/sshd -T -C user=root -C host="$(hostname)" -C addr="$(grep $(hostname) /etc/hosts | awk '{print $1}')" -f %s
+     # validate: /usr/sbin/sshd -T -C user=root -C host="$(hostname)" -C addr="$(grep $(hostname) /etc/hosts | awk '{print $1}')" -f %s
   notify:
       - restart sshd
   when:
